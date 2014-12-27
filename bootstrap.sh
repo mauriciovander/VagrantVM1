@@ -62,5 +62,8 @@ service mysql restart
 
 mysql -uroot -proot -e "grant all privileges on *.* to 'root'@'%' with grant option;"
 
+a2enmod rewrite
+a2enmod ssl
+
 service apache2 restart
 
