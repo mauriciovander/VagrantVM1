@@ -17,8 +17,8 @@ Configure your Apache VirtualHosts as if you were in the VM environment and conf
 (Yoy can change the IP in VagrantFile to whatever you like)
 
 To access VM using 
-#> vagrant ssh
-#> sudo ./postinstall.sh   (can take about 10 extra minutes)
+~ vagrant ssh
+~ sudo ./postinstall.sh   (can take about 10 extra minutes)
 
 from the VM, execute sudo service apache2 restart every time you add or change a VirtualHost 
 
