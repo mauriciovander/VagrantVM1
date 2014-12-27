@@ -13,6 +13,9 @@ apt-get install -y mysql-server-5.5
 # curl
 apt-get install -y curl
 
+# Memcached
+apt-get install -y memcached
+
 # SVN
 apt-get install -y subversion
 
@@ -22,7 +25,7 @@ apt-get install -y php5-mycrypt
 apt-get install -y php5-mysql
 apt-get install -y php5-uuid
 apt-get install -y php5-curl
-
+apt-get install -y php5-memcached
 
 # GETTEXT
 apt-get install gettext
