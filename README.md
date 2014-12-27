@@ -13,6 +13,11 @@ Other sync-folders are:
 
 ./db.sh will access the VM hosted MySQL database with root privileges
 
+Configure your Apache VirtualHosts as if you were in the VM environment and configure your local DNS to point your local sites to 12.0.1.20.
+(Yoy can change the IP in VagrantFile to whatever you like)
+
 To access VM, use "vagrant ssh"
+
+from the VM, execute sudo service apache2 restart every time you add or change a VirtualHost 
 
 Enjoy !
