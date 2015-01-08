@@ -2,6 +2,10 @@ Step 1:   Install VirtualBox
 
 Step 2:   Install Vagrant
 
+Step 2.5 (if required):  Download Ubuntu Precise32 Box by the following command:
+  
+  vagrant box add precise32 http://files.vagrantup.com/precise32.box
+
 Step 3:   clone git repository : git clone https://github.com/mauriciovander/VagrantVM1.git
 
 Step 4:   cd into de new VagrantVM1 folder and execute "vagrant up" (takes about 10 minutes)
