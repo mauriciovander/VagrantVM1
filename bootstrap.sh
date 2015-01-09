@@ -55,8 +55,12 @@ fi
 
 sudo sed -i 's/bind-address/#bind-address/g' /etc/mysql/my.cnf
 sudo sed -i 's/skip-external-locking/#skip-external-locking/g' /etc/mysql/my.cnf
+
 sudo sed -i 's/;include_path = ".:\/usr\/share\/php"/include_path = ".:\/usr\/share\/php5"/g' /etc/php5/apache2/php.ini
 sudo sed -i 's/php55/php5"/g' /etc/php5/apache2/php.ini
+
+sudo sed -i 's/;include_path = ".:\/usr\/share\/php"/include_path = ".:\/usr\/share\/php5"/g' /etc/php5/cli/php.ini
+sudo sed -i 's/php55/php5"/g' /etc/php5/cli/php.ini
 
 service mysql restart
 
